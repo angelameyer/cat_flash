@@ -1,0 +1,25 @@
+@font-face {  
+  font-family: "grand-hotel";  
+  src: url(font_path("/assets/grand-hotel/GrandHotel-Regular.otf")) format("truetype");
+  font-weight: normal;  
+  font-style: normal;  
+}
+
+@font-face {  
+  font-family: "ostrich-sans";  
+  src: url(font_path("/assets/ostrich-sans/ostrich-regular.ttf")) format("truetype");
+  font-weight: normal;   
+  font-style: normal;  
+}
+
+h1 {
+  font-family: "grand-hotel";
+  text-align: center;
+  font-size: 138px;
+}
+
+p {
+  font-family: "ostrich-sans";
+  text-align: center;
+  font-size: 34px;
+}
