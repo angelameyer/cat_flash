@@ -3,6 +3,7 @@ h1 {
   text-align: center;
   font-size: 138px;
   margin-top: 178px;
+  margin-bottom: 42px;
   color: #FBA383;
 }
 
@@ -23,4 +24,20 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.kitty-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-image:url(white-kitty.png);
+  background-size:117px 107px;
+  background-repeat:no-repeat;
+  display:block;
+  height:109px;
+  width:119px;
+  &:hover {
+    background-image:url(orange-nose-kitty.png);
+
+  }
 }
