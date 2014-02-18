@@ -5,3 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Cat.create!([
+  {
+    src: "http://i.imgur.com/9BTKrNx.jpg"
+  },
+  {
+    src: "http://i.imgur.com/Uc1PswK.jpg"
+  }
+])
