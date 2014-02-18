@@ -1,6 +1,6 @@
-%h1 Here's a cat
+.div
+  %h1.show-title Here's a cat
 
-%ul
-  - @cats.each do |cat|
-    %a{href: cat.url}
-      %img{src: cat.src}
+  %ul
+    - @cats.each do |cat|
+      %img.cat-photo{src: cat.src}
