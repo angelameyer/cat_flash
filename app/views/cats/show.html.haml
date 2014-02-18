@@ -1,1 +1,6 @@
-%h1 Cats show page
+%h1 Here's a cat
+
+%ul
+  - @cats.each do |cat|
+    %a{href: cat.url}
+      %img{src: cat.src}

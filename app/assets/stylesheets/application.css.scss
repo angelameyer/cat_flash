@@ -1,3 +1,10 @@
+/*
+ * This is a manifest file...
+ *
+ *= require_self
+ *= require_tree .
+ */
+
 @font-face {  
   font-family: "grand-hotel";  
   src: url(font_path("/assets/grand-hotel/GrandHotel-Regular.otf")) format("truetype");
@@ -12,16 +19,17 @@
   font-style: normal;  
 }
 
-h1 {
-  font-family: "grand-hotel";
-  text-align: center;
-  font-size: 138px;
-  margin-top: 178px;
+.background {
+  background-color: #F53F0A;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
-p {
-  font-family: "ostrich-sans";
-  text-align: center;
-  font-size: 34px;
-  margin-top: -41px;
+a {
+  color: #9F2603;
+
+  &:hover {
+  color: black;
+  }
 }
