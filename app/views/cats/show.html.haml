@@ -1,6 +1,6 @@
 .div
   %h1.show-title Here's a cat
-
+  %h1.next-link=link_to ">", cats_path
   %ul
     - @cats.each do |cat|
       %img.cat-photo{src: cat.src}

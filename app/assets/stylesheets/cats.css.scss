@@ -12,6 +12,7 @@ p {
   text-align: center;
   font-size: 34px;
   margin-bottom: 29px;
+  font-weight: bold;
 }
 
 .show-title {
@@ -40,4 +41,8 @@ p {
     background-image:url(orange-nose-kitty.png);
 
   }
+}
+
+.next-link {
+  float: right;
 }
