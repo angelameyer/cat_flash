@@ -48,7 +48,6 @@ p {
   height:121px;
   width:125px;
   &:hover {
-    background-image:url(kitty-sprite.png);
     background-position: 0 -119px;
   }
 }
@@ -66,14 +65,20 @@ p {
 .home-button {
   position: absolute;
   bottom: 3px;
-  left: 39px;
-  background-size: 78px 71px;
-  font-size: 24px;
-  height: 71px;
+  left: 43px;
+  background-size: 51px 95px;
+  height: 48px;
+  width: 52px;
+
+  &:hover {
+    background-position: 0 -48px;
+  }
 
   a {
     position: absolute;
-    top: 72px;
-    right: 44px;
+    font-size: 22px;
+    top: 51px;
+    right: -7px;
+    width: 63px;
   }
 }
