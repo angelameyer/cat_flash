@@ -11,8 +11,8 @@
 %h1.show-title Here's a cat
 %h1.prev-link=link_to "<", cat_path(@api_page, @current_image_id -1)
 %h1.next-link=link_to ">", cat_path(@api_page, @current_image_id +1)
-%p.caption
-  = @response['data'][@id]['title']
 .image-div
   %img.cat-photo{src: @response['data'][@id]['link']}
+%p.caption
+  = @response['data'][@id]['title']
 %p.kitty-button.home-button=link_to "Go Home", root_path
