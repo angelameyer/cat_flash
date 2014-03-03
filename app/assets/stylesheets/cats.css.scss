@@ -15,8 +15,15 @@ p {
   font-weight: bold;
 }
 
+.caption {
+  max-width: 850px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .show-title {
-  margin-top: 55px;
+  margin-top: 40px;
   margin-bottom: 27px;
 }
 
@@ -45,8 +52,10 @@ p {
 
 .next-link {
   float: right;
+  margin-right: 40px;
 }
 
 .prev-link {
   float: left;
+  margin-left: 40px;
 }
