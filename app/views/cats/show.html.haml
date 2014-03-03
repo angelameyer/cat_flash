@@ -1,6 +1,7 @@
-.div
+.show-div
   %h1.show-title Here's a cat
+  %h1.prev-link=link_to "<", cat_path(@api_page, @current_image_id -1)
   %h1.next-link=link_to ">", cat_path(@api_page, @current_image_id +1)
-  %ul
+  %p.caption
     = @response['data'][@id]['title']
   %img.cat-photo{src: @response['data'][@id]['link']}
