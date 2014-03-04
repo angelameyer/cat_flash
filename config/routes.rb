@@ -5,6 +5,7 @@ CatFlash::Application.routes.draw do
   root 'cats#index'
   get "cats" => "cats#index"
   get "cats/:page/:id" => "cats#show", as: "cat"
+  get "about" => "about#index"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
