@@ -7,7 +7,7 @@ h1 {
   color: #FBA383;
 }
 
-p {
+p, li {
   font-family: "ostrich-sans";
   text-align: center;
   font-size: 34px;
@@ -29,13 +29,11 @@ p {
 
 .cat-photo {
   max-height: 433px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 23px;
 }
 
 .image-div {
-  margin-bottom: 23px;
+  text-align: center;
 }
 
 .kitty-button {
