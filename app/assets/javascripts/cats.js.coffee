@@ -8,4 +8,5 @@ $(document).keydown (e) ->
       $('.next-link a')[0].click()
     else
       return
+  e.preventDefault()
   return

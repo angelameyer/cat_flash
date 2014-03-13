@@ -1,20 +1,3 @@
-h1 {
-  font-family: "grand-hotel";
-  text-align: center;
-  font-size: 138px;
-  margin-top: 178px;
-  margin-bottom: 29px;
-  color: #FBA383;
-}
-
-p, li {
-  font-family: "ostrich-sans";
-  text-align: center;
-  font-size: 34px;
-  margin-bottom: 29px;
-  font-weight: bold;
-}
-
 .caption {
   max-width: 850px;
   display: block;
@@ -86,4 +69,25 @@ p, li {
   bottom: 3px;
   left: 43px;
   font-size: 22px;
+}
+
+.reaction-div {
+  position: absolute;
+  right: 225px;
+}
+
+.reaction-bubbles {
+  background-image:url(reaction-bubble.png);
+  background-repeat: no-repeat;
+  height: 90px;
+  width: 332px;
+
+  li {
+    font-size: 12px;
+    float: left;
+  }
+}
+
+.reaction-text {
+  font-size: 30px;
 }

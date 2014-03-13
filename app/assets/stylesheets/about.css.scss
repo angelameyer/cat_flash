@@ -1,3 +1,48 @@
-// Place all the styles related to the About controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.about-text {
+  font-size: 20px;
+}
+
+.about-div {
+  max-width: 580px;
+  height: 376px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-div {
+  float: right;
+  max-width: 300px;
+}
+
+.photo-div {
+  height: 303px;
+  width: 150px;
+  background-image:url(about-photo.png);
+  background-repeat:no-repeat;
+  float: left;
+}
+
+.contact-div {
+  clear: both;
+  margin: 0 auto;
+}
+
+.about {
+  margin-top: 110px;
+}
+
+.hide {
+  display: none;
+}
+
+.contact {
+  margin-top: 0px;
+  font-size: 53px;
+}
+
+.photo-header {
+  margin-top: -1px;
+  font-size: 53px;
+  margin-left: -116px;
+  width: 84px;
+}

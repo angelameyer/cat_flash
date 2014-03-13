@@ -1,2 +1,16 @@
-%h1 About
-%p.kitty-button.home-button=link_to "Go Home", root_path
+%h1.about About
+.about-div
+  .text-div
+    %p
+      CatFlash! flip through images and captions of the internet’s favorite animal via
+      %a{:href => "https://api.imgur.com/"} Imgur's api.
+  .photo-div
+    %h1.photo-header Me & Mine ->
+    %a{:href => "https://github.com/angelameyer/cat_flash"}
+.contact-div
+  %h1.contact
+    Contact:
+    %a{:mail_to => "angela.td.meyer@gmail.com"} Twitter
+    %a{:href => "https://github.com/angelameyer/cat_flash"} Github
+    %a{:mail_to => "angela.td.meyer@gmail.com"} Email
+/ %p.kitty-button.home-button=link_to "Go Home", root_path
